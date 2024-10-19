@@ -1,0 +1,283 @@
+body{
+    background-color: #ebebeb54  ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Meu_Item{
+    padding: 10px;
+    display:flex;
+    background-color: white  ;
+    width: 98%;
+    border-radius: 10px;
+    height: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+
+}
+a {
+
+    color: transparent;
+    text-decoration: none;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+.Item_Menu{
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+
+.Card{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+    
+}
+.Cards{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.card-materia{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 24px;
+    text-align: center;
+}
+.card-historia {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: normal;
+    overflow: hidden;
+    hyphens: auto;
+    letter-spacing: -1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.card-historia p{
+    font-size: 22px;
+}
+
+.redirecionar-atividade{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    padding: 24px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.red-atv{
+    background-color: #d3d3d3;
+    border: 1px solid #d3d3d3 ;
+    color: black;
+    border-radius: 8px;
+    height: 20px;
+    width: 100%;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.input_Text{
+    border-radius: 10px;
+    height: 20px;
+    width: 250px;
+    margin-top: 5px;
+}
+.c1{
+    text-align:left ;
+}
+.btn{
+    margin-top: 15px;
+    width: 100%; 
+    height: 1px;
+    background-color: #dedede;
+
+}
+
+.Btn_Cancelar, .Btn_Salvar{
+    margin-top: 15px;
+    background-color:#dedede ;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px !important;
+    height: 25px;
+    border: none;
+
+}
+#nome{
+    margin-bottom: 10px;
+}
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+
+}
+#materias, #conteudo{
+    width: 250px;
+    border-radius: 10px;
+    height: 25px;
+}
+.IN, .CAN, .SAL{
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+}
+.SAL{
+    background-color: green;
+    color: white;
+  
+}
+.CAN{
+background-color: gray ;
+color: white;    
+}
+.resultado{
+   text-align: left;
+
+}
+.margin-botom{
+    margin-bottom: 25px;
+}
+#materiaSelect{
+    border-radius: 0px;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+}
+#conteudoSelect{
+    margin-top: 10px;
+    position: relative;
+    top: -100%; 
+    width: 100%;
+    height: 20px;
+    border-radius: 0px;
+    z-index: 1;    
+}
+#conteudoSelect, #materiaSelect{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+#conteudoSelect:focus, #materiaSelect:focus{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none; 
+
+}
+.Duracao, .Data{
+    border-radius: 0px;
+    height: 20px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.Data:focus{
+    border-left: none;
+    border-right: none;
+    border-top: none;   
+    outline: none; 
+ 
+}
+
+.DataContainer{
+ text-align: left;
+ font-weight: bold;
+
+}
+.Display-flex{
+    font-weight: bold;
+    display: flex;
+    margin-left: -10px;
+}
+
+.NomeMateriaContainer{
+    margin-bottom: 15px;
+}
+
+#Segundos, #Minutos, #Horas{
+    width: 33%;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+
+    
+}
+.margin-bottom{
+    margin-bottom: 25px;
+}
+#cronometro {
+    font-size: 1.5em;
+    margin-top: 10px;
+    display: none;
+}
+.input_Text {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px !important;
+    width: 100% !important;
+}
+
+.input_Text:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none; 
+}

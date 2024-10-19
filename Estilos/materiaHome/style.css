@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h2, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Texto escuro */
+    line-height: 1.6;
+}
+
+/* Menu styles */
+menu {
+    background-color: #343a40; /* Cinza escuro */
+    padding: 10px;
+}
+
+.Item_Menu {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.Item_Menu:hover {
+    text-decoration: underline;
+}
+
+/* Card styles */
+.card-materia {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Table styles */
+.table-container {
+    overflow-x: auto;
+}
+
+.resultado {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultado th, .resultado td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.resultado th {
+    background-color: #343a40; /* Cinza escuro */
+    color: white; /* Texto claro */
+}
+
+/* Button styles */
+button {
+    border: none;
+    cursor: pointer;
+    background: none; /* Remove background */
+}
+
+.editar-btn, .excluir-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Flex container for actions */
+.display-flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.margin-botom {
+    margin-bottom: 20px;
+}
+
+.link_cadastar_materia {
+    text-decoration: none;
+    color: #007bff; /* Azul */
+}

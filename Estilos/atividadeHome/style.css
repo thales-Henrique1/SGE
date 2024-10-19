@@ -1,0 +1,104 @@
+body, h2, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333; 
+    line-height: 1.6;
+}
+
+/* Menu styles */
+menu {
+    background-color: #343a40; 
+    padding: 10px;
+}
+
+.Item_Menu {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.Item_Menu:hover {
+    text-decoration: underline;
+}
+
+.paddingXL{
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-bottom: 20px;
+}
+.card-materia {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Estilos do link de cadastrar atividade */
+.link_cadastar_atividade {
+    color: #007bff; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.link_cadastar_atividade svg {
+    margin-right: 5px; 
+}
+
+/* Tabela */
+.table-container {
+    overflow-x: auto; 
+}
+
+.resultado {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.resultado th, .resultado td {
+    border: 1px solid #dee2e6; 
+    padding: 10px; 
+    text-align: left;
+}
+
+.resultado th {
+    background-color: #343a40; 
+    color: white; 
+}
+
+/* Botões de editar e excluir */
+button {
+    border: none;
+    cursor: pointer;
+    background: none; 
+}
+
+.editar-btn, .excluir-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Flex container para ações */
+.display-flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+/* Link para cadastrar atividade */
+.link_cadastar_atividade {
+    text-decoration: none;
+    color: #007bff; 
+}

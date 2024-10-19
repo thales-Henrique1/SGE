@@ -1,0 +1,162 @@
+
+body, h1, p, select, input, menu, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    line-height: 1.6;
+}
+
+h1 {
+    color: #007bff; 
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #6c757d; 
+}
+
+menu {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.Item_Menu {
+    color: white; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.Item_Menu:hover {
+    text-decoration: underline;
+}
+
+
+.Display-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Card do texto de boas-vindas */
+.card-historia {
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+}
+
+/* Estilo da lista de atividades */
+.redirecionar-atividade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.redirecionar-atividade p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.redirecionar-atividade a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #343a40; 
+    border-radius: 5px;
+}
+
+.redirecionar-atividade a:hover {
+    background-color: #495057; 
+}
+
+/* Estilos do formulário */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.SAL, .CAN {
+    width: 48%;
+} 
+select {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495057;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="button"].SAL,
+input[type="button"].CAN {
+    background-color: #28a745; 
+}
+
+input[type="button"].CAN {
+    background-color: #dc3545; 
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3; 
+}
+
+#cronometro {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+@media (max-width: 768px) {
+    .Display-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-historia, .redirecionar-atividade, .container {
+        width: 90%;
+    }
+}

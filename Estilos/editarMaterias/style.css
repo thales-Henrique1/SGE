@@ -1,0 +1,102 @@
+body, h2, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Menu styles */
+menu {
+    background-color: #343a40; 
+    padding: 10px;
+}
+
+.Item_Menu {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.Item_Menu:hover {
+    text-decoration: underline;
+}
+
+
+.Voltar {
+    display: block;
+    margin: 20px;
+    color: #343a40; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Voltar:hover {
+    text-decoration: underline;
+}
+
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+}
+
+
+.Card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"], button, .Btn_Cancelar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input_Text {
+    border: 1px solid #ccc;
+}
+
+input[type="submit"], button, .Btn_Cancelar {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover, .Btn_Cancelar {
+    background-color: #495057; 
+}
+
+/* List styles */
+.conteudos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conteudos-list li {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
